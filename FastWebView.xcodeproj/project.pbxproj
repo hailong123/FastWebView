@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DDE51DAFBEDBB0FD45EBC83 /* libPods-FastWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C240EC3472EF605676521 /* libPods-FastWebView.a */; };
+		92B00C322579CF1D0040E123 /* HLCustomURLSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00C312579CF1D0040E123 /* HLCustomURLSchemeHandler.m */; };
+		92B00C382579DA240040E123 /* HLDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00C372579DA240040E123 /* HLDownLoadManager.m */; };
+		92B8D51F25772ACE00D669F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D51E25772ACE00D669F5 /* AppDelegate.m */; };
+		92B8D52225772ACE00D669F5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D52125772ACE00D669F5 /* SceneDelegate.m */; };
+		92B8D52525772ACE00D669F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D52425772ACE00D669F5 /* ViewController.m */; };
+		92B8D52825772ACE00D669F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B8D52625772ACE00D669F5 /* Main.storyboard */; };
+		92B8D52A25772AD000D669F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B8D52925772AD000D669F5 /* Assets.xcassets */; };
+		92B8D52D25772AD000D669F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B8D52B25772AD000D669F5 /* LaunchScreen.storyboard */; };
+		92B8D53025772AD000D669F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D52F25772AD000D669F5 /* main.m */; };
+		92B8D53A25772AFD00D669F5 /* HLWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D53925772AFD00D669F5 /* HLWKWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75D5342358A244A0B0B73FA8 /* Pods-FastWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebView.debug.xcconfig"; path = "Target Support Files/Pods-FastWebView/Pods-FastWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		92B00C302579CF1D0040E123 /* HLCustomURLSchemeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCustomURLSchemeHandler.h; sourceTree = "<group>"; };
+		92B00C312579CF1D0040E123 /* HLCustomURLSchemeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCustomURLSchemeHandler.m; sourceTree = "<group>"; };
+		92B00C362579DA240040E123 /* HLDownLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDownLoadManager.h; sourceTree = "<group>"; };
+		92B00C372579DA240040E123 /* HLDownLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDownLoadManager.m; sourceTree = "<group>"; };
+		92B8D51A25772ACE00D669F5 /* FastWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B8D51D25772ACE00D669F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92B8D51E25772ACE00D669F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92B8D52025772ACE00D669F5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		92B8D52125772ACE00D669F5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		92B8D52325772ACE00D669F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92B8D52425772ACE00D669F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92B8D52725772ACE00D669F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B8D52925772AD000D669F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B8D52C25772AD000D669F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B8D52E25772AD000D669F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B8D52F25772AD000D669F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92B8D53825772AFD00D669F5 /* HLWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLWKWebViewController.h; sourceTree = "<group>"; };
+		92B8D53925772AFD00D669F5 /* HLWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLWKWebViewController.m; sourceTree = "<group>"; };
+		A8BCCDDD36AD4DC5A996393B /* Pods-FastWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebView.release.xcconfig"; path = "Target Support Files/Pods-FastWebView/Pods-FastWebView.release.xcconfig"; sourceTree = "<group>"; };
+		C53C240EC3472EF605676521 /* libPods-FastWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B8D51725772ACE00D669F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDE51DAFBEDBB0FD45EBC83 /* libPods-FastWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A51CCDD0EE6092F65FA6D3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53C240EC3472EF605676521 /* libPods-FastWebView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B00C2F2579CE360040E123 /* FastWebTool */ = {
+			isa = PBXGroup;
+			children = (
+				92B00C362579DA240040E123 /* HLDownLoadManager.h */,
+				92B00C372579DA240040E123 /* HLDownLoadManager.m */,
+				92B00C302579CF1D0040E123 /* HLCustomURLSchemeHandler.h */,
+				92B00C312579CF1D0040E123 /* HLCustomURLSchemeHandler.m */,
+			);
+			path = FastWebTool;
+			sourceTree = "<group>";
+		};
+		92B8D51125772ACE00D669F5 = {
+			isa = PBXGroup;
+			children = (
+				92B8D51C25772ACE00D669F5 /* FastWebView */,
+				92B8D51B25772ACE00D669F5 /* Products */,
+				A5B3B3F92CE9D5C5845FBB60 /* Pods */,
+				1A51CCDD0EE6092F65FA6D3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92B8D51B25772ACE00D669F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B8D51A25772ACE00D669F5 /* FastWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B8D51C25772ACE00D669F5 /* FastWebView */ = {
+			isa = PBXGroup;
+			children = (
+				92B00C2F2579CE360040E123 /* FastWebTool */,
+				92B8D51D25772ACE00D669F5 /* AppDelegate.h */,
+				92B8D51E25772ACE00D669F5 /* AppDelegate.m */,
+				92B8D52025772ACE00D669F5 /* SceneDelegate.h */,
+				92B8D52125772ACE00D669F5 /* SceneDelegate.m */,
+				92B8D52325772ACE00D669F5 /* ViewController.h */,
+				92B8D52425772ACE00D669F5 /* ViewController.m */,
+				92B8D53825772AFD00D669F5 /* HLWKWebViewController.h */,
+				92B8D53925772AFD00D669F5 /* HLWKWebViewController.m */,
+				92B8D52625772ACE00D669F5 /* Main.storyboard */,
+				92B8D52925772AD000D669F5 /* Assets.xcassets */,
+				92B8D52B25772AD000D669F5 /* LaunchScreen.storyboard */,
+				92B8D52E25772AD000D669F5 /* Info.plist */,
+				92B8D52F25772AD000D669F5 /* main.m */,
+			);
+			path = FastWebView;
+			sourceTree = "<group>";
+		};
+		A5B3B3F92CE9D5C5845FBB60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75D5342358A244A0B0B73FA8 /* Pods-FastWebView.debug.xcconfig */,
+				A8BCCDDD36AD4DC5A996393B /* Pods-FastWebView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B8D51925772ACE00D669F5 /* FastWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B8D53325772AD000D669F5 /* Build configuration list for PBXNativeTarget "FastWebView" */;
+			buildPhases = (
+				ABE053D58BA9605F16989BFF /* [CP] Check Pods Manifest.lock */,
+				92B8D51625772ACE00D669F5 /* Sources */,
+				92B8D51725772ACE00D669F5 /* Frameworks */,
+				92B8D51825772ACE00D669F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastWebView;
+			productName = FastWebView;
+			productReference = 92B8D51A25772ACE00D669F5 /* FastWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B8D51225772ACE00D669F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					92B8D51925772ACE00D669F5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 92B8D51525772ACE00D669F5 /* Build configuration list for PBXProject "FastWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B8D51125772ACE00D669F5;
+			productRefGroup = 92B8D51B25772ACE00D669F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B8D51925772ACE00D669F5 /* FastWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B8D51825772ACE00D669F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B8D52D25772AD000D669F5 /* LaunchScreen.storyboard in Resources */,
+				92B8D52A25772AD000D669F5 /* Assets.xcassets in Resources */,
+				92B8D52825772ACE00D669F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABE053D58BA9605F16989BFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B8D51625772ACE00D669F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B00C322579CF1D0040E123 /* HLCustomURLSchemeHandler.m in Sources */,
+				92B8D53A25772AFD00D669F5 /* HLWKWebViewController.m in Sources */,
+				92B8D52525772ACE00D669F5 /* ViewController.m in Sources */,
+				92B8D51F25772ACE00D669F5 /* AppDelegate.m in Sources */,
+				92B00C382579DA240040E123 /* HLDownLoadManager.m in Sources */,
+				92B8D53025772AD000D669F5 /* main.m in Sources */,
+				92B8D52225772ACE00D669F5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B8D52625772ACE00D669F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B8D52725772ACE00D669F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B8D52B25772AD000D669F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B8D52C25772AD000D669F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B8D53125772AD000D669F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92B8D53225772AD000D669F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B8D53425772AD000D669F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D5342358A244A0B0B73FA8 /* Pods-FastWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3BSY7RH3;
+				INFOPLIST_FILE = FastWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.hl.FastWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B8D53525772AD000D669F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BCCDDD36AD4DC5A996393B /* Pods-FastWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3BSY7RH3;
+				INFOPLIST_FILE = FastWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.hl.FastWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B8D51525772ACE00D669F5 /* Build configuration list for PBXProject "FastWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B8D53125772AD000D669F5 /* Debug */,
+				92B8D53225772AD000D669F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B8D53325772AD000D669F5 /* Build configuration list for PBXNativeTarget "FastWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B8D53425772AD000D669F5 /* Debug */,
+				92B8D53525772AD000D669F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B8D51225772ACE00D669F5 /* Project object */;
+}
